@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://chentianyu.net/"/>
   <updated>2016-12-01T03:20:49.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://chentianyu.net/</id>
   
   <author>
     <name>TerryC78</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>My First Post</title>
-    <link href="http://yoursite.com/2016/11/30/My-First-Post/"/>
-    <id>http://yoursite.com/2016/11/30/My-First-Post/</id>
+    <link href="http://chentianyu.net/2016/11/30/My-First-Post/"/>
+    <id>http://chentianyu.net/2016/11/30/My-First-Post/</id>
     <published>2016-12-01T03:20:49.000Z</published>
     <updated>2016-12-01T03:20:49.000Z</updated>
     

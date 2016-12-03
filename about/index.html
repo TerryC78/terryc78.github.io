@@ -102,7 +102,7 @@
     TerryC及链接。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="TerryC78">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:url" content="http://chentianyu.net/about/index.html">
 <meta property="og:site_name" content="TerryC78">
 <meta property="og:description" content="Name: TerryC78
 
@@ -162,7 +162,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/about/"/>
+  <link rel="canonical" href="http://chentianyu.net/about/"/>
 
 
 
@@ -355,6 +355,13 @@
           
   <div class="comments" id="comments">
     
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
   </div>
 
 
@@ -383,7 +390,7 @@
                src="/uploads/avatar.JPG"
                alt="TerryC78" />
           <p class="site-author-name" itemprop="name">TerryC78</p>
-          <p class="site-description motion-element" itemprop="description">Good is the enemy of Great @SJTU/@CMU</p>
+          <p class="site-description motion-element" itemprop="description">Good is the enemy of Great @SJTU/@CMU/@Google</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -573,10 +580,35 @@
 
   
 
+    <script type="text/javascript">
+      var disqus_shortname = 'terryc78';
+      var disqus_identifier = 'about/index.html';
+
+      var disqus_title = "";
 
 
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
 
-	
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
 
 
 
